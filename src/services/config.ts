@@ -1,3 +1,3 @@
-const medusaUrl = __MEDUSA_BACKEND_URL__ || "http://103.142.137.207:9000"
+const medusaUrl = __MEDUSA_BACKEND_URL__ || "https://api.medusa.taisanvn.com"
 
 export { medusaUrl }
