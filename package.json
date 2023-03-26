@@ -111,7 +111,7 @@
     "develop": "npm run dev",
     "check": "tsc",
     "build": "vite build",
-    "preview": "vite preview --port 7000",
+    "preview": "vite preview --host --port 7000",
     "format": "prettier --write \"**/*.{ts,tsx,js,jsx,json,md}\"",
     "start": "npm run dev",
     "serve": "npm run preview",
