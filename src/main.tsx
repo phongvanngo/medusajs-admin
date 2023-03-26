@@ -13,7 +13,7 @@ import queryClient from "./services/queryClient"
 const Page = ({ children }: PropsWithChildren) => {
   return (
     <MedusaProvider
-      apiKey="novapotoken"
+      // apiKey='novapo'
       baseUrl={medusaUrl}
       queryClientProviderProps={{
         client: queryClient,
